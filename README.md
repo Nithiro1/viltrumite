@@ -31,3 +31,7 @@ Funciona no seu mundo (single player, ou LAN que você hospeda); os poderes só 
 O launcher do Horizon compila o `.hmod` (este repositório compactado: `horizon-mod.toml`, `Cargo.toml`,
 `Cargo.lock`, `icon.png` e `src/`) contra o build fixado em `horizon-mod.toml` (Nightly 2026-11-18, `dd67b76`).
 Para desenvolver, `cargo horizon-mod` baixa o SDK em `.horizon/sdk/`, e `cargo test` roda os testes.
+
+## Licença
+
+MIT (veja `LICENSE`).
