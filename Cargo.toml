@@ -1,0 +1,11 @@
+[package]
+name = "mod-viltrumite"
+version = "0.2.0"
+edition = "2024"
+
+[dependencies]
+# The pinned SDK's API crate in .horizon/sdk/ (sdk-dd67b76, from the Horizon release of that name); the
+# launcher builds against its own copy of the same build. Any other dependency must be in Horizon's
+# Cargo.lock: log 0.4.34 is (pinned to the game's own version).
+horizon-mod-api = { path = ".horizon/sdk/api/crates/horizon-mod-api" }
+log = "=0.4.34"

@@ -1,0 +1,15 @@
+id = "viltrumite"
+name = "Viltrumite"
+version = "0.4.0"
+description = "Poderes viltrumitas feitos do zero: escolha ao entrar no mundo, voo (pairar, cruzeiro, sônico que abre túnel), força, durabilidade, golpes, HUD, menu de habilidades e poses. Funciona no seu mundo e na LAN que você hospeda."
+authors = []
+# A native mod: Rust in src/, compiled by the launcher against the game build [native] pins.
+api = "0.2"
+side = "both"
+capabilities = ["registries"]
+
+[native]
+game = "26.3"
+# Nightly 2026-11-18 (dd67b76) and its horizon-mixins (sdk.json).
+horizon = "dd67b76ff23e28c6d8e21859df600d31572f81a0"
+mixins = "e59da9094f0c2fdda6c627fe9eff22dec6a906f0"
